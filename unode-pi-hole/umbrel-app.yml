@@ -1,5 +1,5 @@
 manifestVersion: 1.1
-id: pi-hole
+id: unode-pi-hole
 category: networking
 name: Pi-hole
 version: "2024.03.2"
