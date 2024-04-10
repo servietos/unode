@@ -1,24 +1,19 @@
-version: "3.8"
-
-# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
 services:
-  pihole:
-    container_name: pihole
-    image: pihole/pihole:latest
-    # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
-    ports:
-      - "53:53/tcp"
-      - "53:53/udp"
-      - "67:67/udp" # Only required if you are using Pi-hole as your DHCP server
-      - "80:80/tcp"
-    environment:
-      TZ: 'America/Chicago'
-      # WEBPASSWORD: 'set a secure password here or it will be random'
-    # Volumes store your data between container upgrades
+  server:
+    image: pihole/pihole
+    # Pi-hole doesn't currently support running as non-root
+    # https://github.com/pi-hole/docker-pi-hole/issues/685
+    # user: "1000:1000"
+    restart: on-failure
+    network_mode: host
     volumes:
-      - './etc-pihole:/etc/pihole'
-      - './etc-dnsmasq.d:/etc/dnsmasq.d'
-    #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+      - ${APP_DATA_DIR}/data/pihole:/etc/pihole/
+      - ${APP_DATA_DIR}/data/dnsmasq:/etc/dnsmasq.d/
+    environment:
+      - VIRTUAL_HOST=${APP_DOMAIN}
+      - WEBPASSWORD=${APP_PASSWORD}
+      - WEB_PORT=8082
+      # Listen on all interfaces, permit all origins
+      - DNSMASQ_LISTENING=all
     cap_add:
-      - NET_ADMIN # Required if you are using Pi-hole as your DHCP server, else not needed
-    restart: unless-stopped
+      - NET_ADMIN
