@@ -24,7 +24,7 @@ repo: https://github.com/pi-hole/pi-hole
 support: https://discourse.pi-hole.net
 port: 8082
 gallery:
-  - unode-pi-hole/gallery/1.jpg
+  unode-pi-hole/gallery/1.jpg
   - unode-pi-hole/gallery/2.jpg
   - unode-pi-hole/gallery/3.jpg
 path: "/admin/"
