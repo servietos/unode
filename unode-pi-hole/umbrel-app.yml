@@ -4,6 +4,7 @@ category: networking
 name: Pi-hole
 version: "2024.03.2"
 tagline: Block ads on your entire network
+icon: unode-pi-hole/gallery/icon.svg
 description: >-
   Instead of browser plugins or other software on each computer,
   install Pi-hole® on your Umbrel and your entire network is protected.
@@ -23,9 +24,9 @@ repo: https://github.com/pi-hole/pi-hole
 support: https://discourse.pi-hole.net
 port: 8082
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - unode-pi-hole/gallery/1.jpg
+  - unode-pi-hole/gallery/2.jpg
+  - unode-pi-hole/gallery/3.jpg
 path: "/admin/"
 defaultUsername: ""
 deterministicPassword: true
