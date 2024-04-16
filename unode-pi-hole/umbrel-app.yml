@@ -2,6 +2,7 @@ manifestVersion: 1.1
 id: unode-pi-hole
 category: networking
 name: Pi-hole
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/49be2670350454c36fcbeff1ca70cad4c6971eb8/pi-hole/icon.svg
 version: "2024.03.2"
 tagline: Block ads on your entire network
 description: >-
