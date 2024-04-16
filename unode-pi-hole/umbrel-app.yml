@@ -25,7 +25,7 @@ support: https://discourse.pi-hole.net
 port: 8082
 gallery:
   - 1.jpg
-  - unode-pi-hole/gallery/2.jpg
+  - 2.jpg
   - unode-pi-hole/gallery/3.jpg
 path: "/admin/"
 defaultUsername: ""
