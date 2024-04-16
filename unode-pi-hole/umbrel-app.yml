@@ -1,10 +1,10 @@
 manifestVersion: 1.1
-id: pi-hole
-category: networking
+id: unode-pi-hole
 name: Pi-hole
-version: "2024.03.2"
 tagline: Block ads on your entire network
 icon: unode-pi-hole/gallery/icon.svg
+category: networking
+version: "2024.03.2"
 description: >-
   Instead of browser plugins or other software on each computer,
   install Pi-hole® on your Umbrel and your entire network is protected.
