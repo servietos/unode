@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: unode-pi-hole
 category: networking
 name: Pi-hole
-icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/49be2670350454c36fcbeff1ca70cad4c6971eb8/pi-hole/icon.svg
+icon: unode-pi-hole/gallery/icon.svg
 version: "2024.03.2"
 tagline: Block ads on your entire network
 description: >-
@@ -24,9 +24,9 @@ repo: https://github.com/pi-hole/pi-hole
 support: https://discourse.pi-hole.net
 port: 8082
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - unode-pi-hole/gallery/1.jpg
+  - unode-pi-hole/gallery/2.jpg
+  - unode-pi-hole/gallery/3.jpg
 path: "/admin/"
 defaultUsername: ""
 deterministicPassword: true
