@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: unode-pi-hole
 name: Pi-hole
 tagline: Block ads on your entire network
-icon: ./icon.svg
+icon: https://github.com/servietos/unode/blob/master/unode-pi-hole/icon.svg
 category: networking
 version: "2024.03.2"
 description: >-
