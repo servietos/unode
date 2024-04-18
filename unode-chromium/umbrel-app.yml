@@ -1,4 +1,4 @@
-manifestVersion: 1
+manifestVersion: 1.1
 id: chromium
 icon: https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/gallery/Chromium_Logo.svg
 category: networking
