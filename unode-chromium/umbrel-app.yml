@@ -21,6 +21,6 @@ gallery:
   - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/chromium-3.jpg
 path: ""
 deterministicPassword: false
-torOnly: true
+torOnly: false
 submitter: serv
 submission: x
