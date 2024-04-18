@@ -1,8 +1,8 @@
-manifestVersion: 1
-id: invidious
+manifestVersion: 1.1
+id: unode-invidious
 category: social
 name: Invidious
-version: "2024.3.31-08390ac"
+version: "latest"
 tagline: Browse YouTube without tracking or ads
 description: >-
   An open source alternative front-end to YouTube
