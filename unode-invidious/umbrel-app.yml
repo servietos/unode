@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: unode-invidious
 category: social
 icon: https://raw.githubusercontent.com/servietos/unode/5b3764467ac9b6db7521ed72eda4bf5f637dfac4/gallery/invidious_icon.svg
-name: Invidious
+name: Invidious-inDev
 version: "latest"
 tagline: Browse YouTube without tracking or ads
 description: >-
