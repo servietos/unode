@@ -37,7 +37,7 @@ developer: IV-Org
 website: https://invidious.io/
 dependencies: []
 repo: https://github.com/iv-org/invidious
-support: https://matrix.to/#/#invidious:matrix.org
+support: https://docs.invidious.io/installation/#docker-compose-method-production
 port: 3420
 gallery:
   - 1.jpg
