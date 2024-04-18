@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   web:
-    image: ceramicwhite/invidious:build-08390ac@sha256:4907e660d6ea31d9a9e696a50fe2d7c7ef968b6fb5fbbd9efe257d580b5985d6
+    image: iv-org/invidious:latest
     restart: on-failure
     stop_grace_period: 1m
     user: "1000:1000"
@@ -18,8 +18,8 @@ services:
         db:
           dbname: invidious
           user: umbrel
-          password: moneyprintergobrrr
-          host: invidious_postgres_1
+          password: 3117
+          host: unode-invidious_postgres_1
           port: 5432
         check_tables: true
         external_port: 3420
@@ -45,4 +45,4 @@ services:
     environment:
       POSTGRES_DB: invidious
       POSTGRES_USER: umbrel
-      POSTGRES_PASSWORD: moneyprintergobrrr
+      POSTGRES_PASSWORD: 3117
