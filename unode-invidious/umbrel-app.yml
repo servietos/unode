@@ -1,6 +1,7 @@
 manifestVersion: 1.1
 id: unode-invidious
 category: social
+icon: https://raw.githubusercontent.com/servietos/unode/5b3764467ac9b6db7521ed72eda4bf5f637dfac4/gallery/invidious_icon.svg
 name: Invidious
 version: "latest"
 tagline: Browse YouTube without tracking or ads
@@ -40,9 +41,9 @@ repo: https://github.com/iv-org/invidious
 support: https://docs.invidious.io/installation/#docker-compose-method-production
 port: 3420
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/servietos/unode/5b3764467ac9b6db7521ed72eda4bf5f637dfac4/gallery/invidious_1.jpg
+  - https://raw.githubusercontent.com/servietos/unode/5b3764467ac9b6db7521ed72eda4bf5f637dfac4/gallery/invidious_2.jpg
+  - https://raw.githubusercontent.com/servietos/unode/5b3764467ac9b6db7521ed72eda4bf5f637dfac4/gallery/invidious_3.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
