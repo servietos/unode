@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   web:
-    image: iv-org/invidious:latest
+    image: quay.io/invidious/invidious:latest
     restart: on-failure
     stop_grace_period: 1m
     user: "1000:1000"
@@ -18,7 +18,7 @@ services:
         db:
           dbname: invidious
           user: umbrel
-          password: 3117
+          password: 123
           host: unode-invidious_postgres_1
           port: 5432
         check_tables: true
@@ -35,7 +35,7 @@ services:
       - postgres
 
   postgres:
-    image: postgres:13.7@sha256:03652c675ae177af98ddd50f9f4b4b2cf8ad38d0e116aa68fe670fbc2cf250fc
+    image: docker.io/library/postgres:14
     restart: on-failure
     user: "1000:1000"
     stop_grace_period: 1m
@@ -45,4 +45,4 @@ services:
     environment:
       POSTGRES_DB: invidious
       POSTGRES_USER: umbrel
-      POSTGRES_PASSWORD: 3117
+      POSTGRES_PASSWORD: 123
