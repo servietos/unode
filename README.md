@@ -1,6 +1,7 @@
-## Umbrel Community App Store Template
+## Servieto's Community App Store for  Umbrel
 
-This repository is a template to create an Umbrel Community App Store. These additional app stores allow developers to distribute applications without submitting to the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps).
+This repository is created based on template at https://github.com/getumbrel/umbrel-community-app-store. 
+Description from above website:
 
 ## How to use:
 
