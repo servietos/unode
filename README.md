@@ -4,13 +4,13 @@ This repository is created based on template at https://github.com/getumbrel/umb
 
 Contained apps:
 
-chromium        Browser (working)
+chromium        Browser (working, Version: latest)
 
-hello-world     from template (working, but icon missing)
+hello-world     from template (working)
 
-pi-hole         pi-hole DNS server and add blocker (working, V5.18.2/2024.03.2)
+pi-hole         DNS server and add blocker (working, Version 5.18.2/2024.03.2)
 
-invidious       add free youtube access (not working)
+invidious       add free youtube access (not working, Version latest)
 
 ## How to use (description from Umbrel's template):
 
