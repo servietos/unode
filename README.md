@@ -1,7 +1,6 @@
 ## Servietos Community App Store for  Umbrel
 
-This repository is created based on template at https://github.com/getumbrel/umbrel-community-app-store. 
-Description from above website:
+This repository is created based on template at https://github.com/getumbrel/umbrel-community-app-store, description from website:
 
 ## How to use:
 
