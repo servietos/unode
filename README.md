@@ -3,11 +3,14 @@
 This repository is created based on template at https://github.com/getumbrel/umbrel-community-app-store.
 
 Contained apps:
-chromium        Browser (working)
-hello-world     Hello World (working, 1. test from template)
-pi-hole         pi-hole DNS server and add blocker (working, V5.18.2/2024.03.2)
-invidious       add free youtube access (not working)
 
+chromium        Browser (working)
+
+hello-world     from template (working, but icon missing)
+
+pi-hole         pi-hole DNS server and add blocker (working, V5.18.2/2024.03.2)
+
+invidious       add free youtube access (not working)
 
 ## How to use (description from Umbrel's template):
 
