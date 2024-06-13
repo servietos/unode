@@ -35,7 +35,7 @@ repo: https://github.com/FreshRSS/FreshRSS
 support: https://github.com/FreshRSS/FreshRSS/issues
 port: 3432
 gallery:
-  - gallery/invidious_1.jpg
+  - https://github.com/servietos/unode/blob/eef06b0e6e8a3b82ed8428a97a29161208f93b02/gallery/invidious_1.jpg
   - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/freshrss-2.jpg
   - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/freshrss-3.jpg
 path: ""
