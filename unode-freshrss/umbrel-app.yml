@@ -4,6 +4,7 @@ category: social
 name: FreshRSS
 version: "1.24.1"
 tagline: A free, self-hostable aggregator for rss feeds
+icon: https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/gallery/freshrss-icon.svg
 description: >-
   FreshRSS is an RSS aggregator and reader. It enables you to seamlessly read and follow content from multiple websites at
   a glance without the need to browse from one website to another.
@@ -34,9 +35,9 @@ repo: https://github.com/FreshRSS/FreshRSS
 support: https://github.com/FreshRSS/FreshRSS/issues
 port: 3432
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/freshrss-1.jpg
+  - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/freshrss-2.jpg
+  - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/freshrss-3.jpg
 path: ""
 deterministicPassword: false
 torOnly: false
