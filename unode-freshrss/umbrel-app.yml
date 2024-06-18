@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: unode-freshrss
 category: social
-name: FreshRSS
+name: FreshRSS-U
 version: "1.24.1"
 tagline: A free, self-hostable aggregator for rss feeds
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/freshrss-icon.svg
