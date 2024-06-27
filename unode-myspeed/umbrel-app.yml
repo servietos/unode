@@ -1,5 +1,6 @@
 manifestVersion: 1
 id: unode-myspeed
+icon: https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed_icon.svg
 category: networking
 name: MySpeed
 version: 1.0.9
