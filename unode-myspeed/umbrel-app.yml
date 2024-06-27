@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: unode-myspeed
-icon: https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed_icon.svg
+icon: https://github.com/servietos/unode/blob/2e960f69e1cb2f6f0814b8a4f142209a45eeb751/gallery/myspeed_icon.svg
 category: networking
 name: MySpeed
 version: 1.0.9
@@ -22,8 +22,8 @@ dependencies: []
 port: 5216
 path: ""
 gallery:
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed-1.jpg
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed-2.jpg
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed-3.jpg
+  - https://github.com/servietos/unode/blob/2e960f69e1cb2f6f0814b8a4f142209a45eeb751/gallery/myspeed_icon.svg
+  - https://github.com/servietos/unode/blob/2e960f69e1cb2f6f0814b8a4f142209a45eeb751/gallery/myspeed-2.jpg
+  - https://github.com/servietos/unode/blob/2e960f69e1cb2f6f0814b8a4f142209a45eeb751/gallery/myspeed-3.jpg
 submitter: Mathias Wagner
 submission: https://github.com/getumbrel/umbrel-apps/pull/1103
