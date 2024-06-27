@@ -21,8 +21,8 @@ dependencies: []
 port: 5216
 path: ""
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed-1.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed-2.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/myspeed-3.jpg
 submitter: Mathias Wagner
 submission: https://github.com/getumbrel/umbrel-apps/pull/1103
