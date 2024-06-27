@@ -2,7 +2,7 @@ manifestVersion: 1
 id: unode-myspeed
 icon: https://raw.githubusercontent.com/servietos/unode/2e960f69e1cb2f6f0814b8a4f142209a45eeb751/gallery/myspeed_icon.svg
 category: networking
-name: MySpeed
+name: MySpeed - Draft - not STARTING!
 version: 1.0.9
 tagline: Speed test analysis software that shows your internet speed for up to 30 days
 description: >-
