@@ -1,0 +1,21 @@
+rust-server:
+  image: didstopia/rust-server
+  restart: always
+  mem_limit: 12g
+  ports:
+    - "28015:28015"
+    - "28015:28015/udp"
+    - "28016:28016"
+    - "80:8080"
+  volumes:
+    - "/rust:/steamcmd/rust"
+  environment:
+    - "RUST_SERVER_STARTUP_ARGUMENTS=-batchmode -load -logfile /dev/stdout +server.secure 1 +server.maxplayers 50"
+    - "RUST_SERVER_IDENTITY=codegram"
+    - "RUST_SERVER_SEED=1209483093"
+    - "RUST_SERVER_NAME=Code Hard Party Harder"
+    - "RUST_SERVER_DESCRIPTION=We won't necessarily keep this server up forever. Use at your own expense."
+    - "RUST_RCON_PASSWORD=rustmotherfucker"
+    - "RUST_UPDATE_CHECKING=1"
+    - "RUST_SERVER_URL=rust.codegram.com"
+    - "RUST_OXIDE_ENABLED=1"
