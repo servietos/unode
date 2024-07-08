@@ -4,13 +4,13 @@ name: Rust-Server
 tagline: Rust Server on SteamCMD base
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
 category: social
-version: "automatically-updates"
+version: "updates"
 description: >-
   steamcmd rust server for game hosting
 developer: steam
 website: https://github.com/Didstopia/rust-server/blob/master/README.md
 dependencies: []
-repo: https://github.com/Didstopia/rust-server/blob/master/README.md
+repo: https://github.com/Didstopia/rust-server/
 support: https://github.com/Didstopia/rust-server/blob/master/README.md
 port: 28015
 gallery:
