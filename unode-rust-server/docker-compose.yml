@@ -1,8 +1,8 @@
-version: "0.1"
+version: "1"
 
 services:
   server:
-    image: didstopia/rust-server:latest
+    image: didstopia/rust-server
     restart: always
     mem_limit: 12g
   ports:
