@@ -1,5 +1,5 @@
-manifestVersion: 1.1
-id: unode-rust
+manifestVersion: 1.1.1
+id: unode-rust-y
 name: Rust-Server
 tagline: Rust Server on SteamCMD base
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
@@ -20,8 +20,7 @@ gallery:
 path: "" #"/steamcmd/rust"
 defaultUsername: ""
 defaultPassword: ""
-#deterministicPassword: true
-#torOnly: false
+torOnly: false
 releaseNotes: >-
   Docker file based on https://gist.github.com/josepjaume/31c05e25609c41a6b71d48ddae9a2850 and
 https://github.com/Didstopia/rust-server/blob/master/README.md
