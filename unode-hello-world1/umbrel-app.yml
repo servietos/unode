@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: unode-rusty
-name: Hello World1
+name: Rust Game Server
 tagline: Rust Server SteamCMD
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
 category: Development
