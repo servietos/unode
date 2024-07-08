@@ -1,14 +1,17 @@
-rust-server:
-  image: didstopia/rust-server
-  restart: always
-  mem_limit: 12g
+version: "0.1"
+
+services:
+  server:
+    image: didstopia/rust-server
+    restart: always
+    mem_limit: 12g
   ports:
     - "28015:28015"
     - "28015:28015/udp"
     - "28016:28016"
     - "80:8080"
   volumes:
-    - "/rust:/steamcmd/rust"
+    - ${APP_DATA_DIR}/steamcmd/rust
   environment:
     - "RUST_SERVER_STARTUP_ARGUMENTS=-batchmode -load -logfile /dev/stdout +server.secure 1 +server.maxplayers 50"
     - "RUST_SERVER_IDENTITY=codegram"
