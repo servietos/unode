@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: unode-hello-world_server_2
+      APP_HOST: unode-rust_server_1
       APP_PORT: 3001
     
   server:
