@@ -7,17 +7,14 @@ category: Development
 version: "1.0.0"
 port: 28015
 description: >-
-  Add your app's description here.
+  steamcmd rust server for game hosting
 
-
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: Steam
+website: https://developer.valvesoftware.com/wiki/SteamCMD
+submitter: servietos
+submission: https://developer.valvesoftware.com/wiki/SteamCMD
+repo: https://developer.valvesoftware.com/wiki/SteamCMD
+support: https://developer.valvesoftware.com/wiki/SteamCMD
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
