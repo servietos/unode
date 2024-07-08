@@ -2,7 +2,7 @@ manifestVersion: 1
 id: unode-hello-world1
 name: Hello World1
 tagline: unode hello world self added
-icon: https://svgur.com/i/mvA.svg
+icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
 category: Development
 version: "1.0.0"
 port: 4001
