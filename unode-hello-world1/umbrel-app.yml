@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: unode-hello-world1
+id: unode-rusty
 name: Hello World1
-tagline: unode hello world self added
+tagline: Rust Server SteamCMD
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
 category: Development
 version: "1.0.0"
-port: 4001
+port: 28015
 description: >-
   Add your app's description here.
 
