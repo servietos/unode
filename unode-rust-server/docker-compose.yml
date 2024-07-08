@@ -5,7 +5,8 @@ services:
     image: didstopia/rust-server
     restart: always
     mem_limit: 3g
-  ports:
+  #ports:
+  expose:
     - "28015:28015"
     - "28015:28015/udp"
     - "28016:28016"
