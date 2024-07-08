@@ -1,10 +1,10 @@
 manifestVersion: 1.1.1
-id: unode-rust-y
+id: unode-rust
 name: Rust-Server
 tagline: Rust Server on SteamCMD base
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
 category: social
-version: "updates"
+version: "latest"
 description: >-
   steamcmd rust server for game hosting
 developer: steam
@@ -17,7 +17,7 @@ gallery:
   - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/gallery/1.jpg
   - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/gallery/2.jpg
   - https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/gallery/3.jpg
-path: "" #"/steamcmd/rust"
+path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
