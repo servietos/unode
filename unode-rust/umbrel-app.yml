@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: unode-rusty
+id: unode-rust-server
 name: Rust Game Server
 tagline: Rust Server on SteamCMD base
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
 category: Development
 version: "0.1"
-port: 28015
+port: 280155
 description: >-
   steamcmd rust server for game hosting
   
@@ -21,10 +21,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-#torOnly: false
-releaseNotes: >-
-  Docker file based on https://gist.github.com/josepjaume/31c05e25609c41a6b71d48ddae9a2850 and
-https://github.com/Didstopia/rust-server/blob/master/README.md
-
 submitter: Servietos
 submission: https://github.com/servietos/unode/tree/master/unode-rust
