@@ -12,7 +12,8 @@ services:
     - "28016:28016"
     - "80:8080"
   volumes:
-    - ${APP_DATA_DIR}/steamcmd/rust
+ #   - ${APP_DATA_DIR}/steamcmd/rust
+     - /home/umbrel/rust:/steamcmd/rust
   environment:
     - "RUST_SERVER_STARTUP_ARGUMENTS=-batchmode -load -logfile /dev/stdout +server.secure 1 +server.maxplayers 50"
     - "RUST_SERVER_IDENTITY=codegram"
