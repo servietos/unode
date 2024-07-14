@@ -2,9 +2,9 @@
 
 services:
   server:
-    image: didstopia/rust-server:latest
+    image: didstopia/rust-server
     restart: always
-    mem_limit: 3g
+    mem_limit: 11g
   # expose:
     ports:
     - "28015:28015"
