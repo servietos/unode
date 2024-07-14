@@ -1,4 +1,4 @@
-manifestVersion: 1
+manifestVersion: 1.1
 id: unode-rust-server
 name: Rust Game Server
 tagline: Rust Server on SteamCMD base
