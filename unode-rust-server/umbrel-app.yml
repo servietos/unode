@@ -4,7 +4,7 @@ name: Rust Game Server
 tagline: Rust Server on SteamCMD base
 icon: https://raw.githubusercontent.com/servietos/unode/master/gallery/RUST.jpg
 category: Development
-version: "latest"
+# version: "latest"
 port: 28015
 description: >-
   steamcmd rust server for game hosting
