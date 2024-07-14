@@ -1,4 +1,4 @@
-manifestVersion: 1.2
+manifestVersion: 1.1
 id: unode-pi-hole
 name: Pi-hole
 tagline: Block ads on your entire network
