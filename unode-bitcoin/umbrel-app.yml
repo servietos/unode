@@ -1,5 +1,6 @@
 manifestVersion: 1.1
 id: unode-bitcoin
+icon: https://github.com/servietos/unode/blob/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/Bitcoin_icon.svg
 category: bitcoin
 name: Bitcoin Node
 version: "28.0"
@@ -34,11 +35,11 @@ repo: https://github.com/getumbrel/umbrel-bitcoin
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 gallery:
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/1-bitcoin.jpg
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/2-bitcoin.jpg
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/3-bitcoin.jpg
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/4-bitcoin.jpg
-  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/5-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/1-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/2-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/3-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/4-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/5-bitcoin.jpg
 path: ""
 defaultPassword: ""
 releaseNotes: >-
