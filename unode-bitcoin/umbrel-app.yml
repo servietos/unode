@@ -1,5 +1,5 @@
 manifestVersion: 1.1
-id: bitcoin
+id: unode-bitcoin
 category: bitcoin
 name: Bitcoin Node
 version: "28.0"
@@ -34,11 +34,11 @@ repo: https://github.com/getumbrel/umbrel-bitcoin
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
-  - 5.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/1-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/2-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/3-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/4-bitcoin.jpg
+  - https://raw.githubusercontent.com/servietos/unode/38efff66a9e0013b3be886b804c436ed4cfcf790/gallery/5-bitcoin.jpg
 path: ""
 defaultPassword: ""
 releaseNotes: >-
