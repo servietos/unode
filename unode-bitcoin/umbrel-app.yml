@@ -1,6 +1,6 @@
 manifestVersion: 1.1
 id: unode-bitcoin
-icon: https://github.com/servietos/unode/blob/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/Bitcoin_icon.svg
+icon: https://raw.githubusercontent.com/servietos/unode/1e7dad67254362a403ae53290795c182ee4a64f3/gallery/Bitcoin_icon.svg
 category: bitcoin
 name: Bitcoin Node
 version: "28.0"
