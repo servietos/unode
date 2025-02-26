@@ -4,7 +4,7 @@ name: Pi-hole
 tagline: Block ads on your entire network
 icon: https://raw.githubusercontent.com/servietos/unode/3cc1e7ad9542e77600b65967173e030b7313bfd4/gallery/icon.svg
 category: networking
-version: "2024.07.0"
+version: "2025.02.6"
 description: >-
   Instead of browser plugins or other software on each computer,
   install Pi-hole® on your Umbrel and your entire network is protected.
